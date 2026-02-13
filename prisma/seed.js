@@ -22,6 +22,7 @@ await prisma.movie.createMany ({
       rating: 8.8,
       available: true,
     },
+    
     {
       title: "O Poderoso Chefão",
       description: "A história da família mafiosa Corleone e sua luta pelo poder.",

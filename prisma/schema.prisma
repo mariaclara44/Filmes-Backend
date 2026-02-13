@@ -6,6 +6,7 @@ datasource db {
   provider = "postgresql"
 }
 
+
 model Movie {
   id          Int      @id @default(autoincrement())
   title       String

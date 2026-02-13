@@ -222,3 +222,4 @@ export const remove = async (req, res) => {
         res.status(500).json({ error: 'Falha ao remover filme' });
     }
 };
+
