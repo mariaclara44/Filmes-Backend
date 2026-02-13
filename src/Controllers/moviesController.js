@@ -184,6 +184,7 @@ export const update = async (req, res) => {
         }
         const data = await model.update(id, req.body);
 
+
         res.json ({
             message: `O filme ${data.title} foi atualizado com sucesso!!`,
             data,
